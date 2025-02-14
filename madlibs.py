@@ -1,3 +1,10 @@
-food = input('"')
-print(f" I am {name}")
 
+name = input("Who's ready for the first day of summer camp ")
+print(f"It was {name} first day at summer camp")
+print("And he was super excited to meet new people")
+print("") 
+print("")
+name = input("And who was super excited for lunch")
+print(f"It was {name} who was excited for lunch")
+print("He had a sandwich and a banana")
+print("He was so excited he ate his lunch in 5 minutes")
