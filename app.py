@@ -1,2 +1,4 @@
-print ("test")
-print ("test")    kdyopijyoidtjyiodj
+def list():
+    for i list():
+        print(1)
+    Add +- 1
