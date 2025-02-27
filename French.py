@@ -1,22 +1,14 @@
-""" def English_French(text):
-    if text (t and T) > (s and S):
-        print(f"{text} is English.")
-    else:
-        text(f"{text} is French.")
+some_text = "The test"
 
-user_text = string(input("Enter text: ")) """
-""" def English_French(text):
-    for i in text:
-        texts = [(t,T) or (s,S)]
-    print(English_French)
-    for i in text:
-        if text (t and T) (s and S):
-            print(f"{text} is English.")
+def lang(text):
+    english = 0
+    french = 0
+    for letter in text:
+        if letter == "s" or letter =="S":
+            french = french +1
+        elif letter.lower == "t":
+            english = english +1
+    if  french >= english:
+        print("French")
     else:
-        text(f"{text} is French.")
-        print(i) """
-
-user_text = input("enter a text")
-check for (t,T or s,S)
-for i in user_text:
-    print (i)
+        print("English")
