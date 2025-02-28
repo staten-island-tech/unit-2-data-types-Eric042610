@@ -5,6 +5,6 @@ def find_factors(num):
             factors.append(i)
     return factors
 
-number = 50
-number_one = 75
+number = 345
+number_one = 675
 print(f"The factors of {number} and {number_one} are: {find_factors(number)}")
